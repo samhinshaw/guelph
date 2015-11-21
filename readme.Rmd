@@ -16,5 +16,5 @@ knitr::opts_chunk$set(
 
 ### Welcome to the guelph package!
 
-This package has been created for the STAT547 class, and was made to manage factors in a less headache-inducing way.  
+This package has been created for the [STAT547](http://stat545-ubc.github.io/) class, and was made to manage factors in a less headache-inducing way.  
 

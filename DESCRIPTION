@@ -6,15 +6,17 @@ Description: This is a paragraph
     about what my package does.
     This is not a poem
     Though it may seem like a bad one.
-Depends: 
+Depends:
     R (>= 3.2.2)
 License: CC0
 LazyData: true
 URL: https://github.com/samhinshaw/guelph
 BugReports: https://github.com/samhinshaw/guelph/issues
-RoxygenNote: 5.0.1
-Suggests: testthat,
+RoxygenNote: 5.0.1.9000
+Suggests:
+    testthat,
     knitr,
     rmarkdown
-Imports: dplyr
+Imports:
+    dplyr
 VignetteBuilder: knitr
