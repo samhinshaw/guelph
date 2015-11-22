@@ -2,4 +2,4 @@
 
 export(fbind)
 export(freq_out)
-importFrom(dplyr,"%>%")
+import(dplyr)
