@@ -7,7 +7,7 @@
 freq_out(x)
 }
 \arguments{
-\item{x}{factor}
+\item{x}{A factor}
 }
 \value{
 tbl_df

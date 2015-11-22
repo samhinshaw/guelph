@@ -1,6 +1,6 @@
 #' Make a frequency table for a factor
 #'
-#' @param x factor
+#' @param x A factor
 #'
 #' @return tbl_df
 #' @export
