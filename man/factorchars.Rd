@@ -9,7 +9,7 @@ factorchars(q, r)
 \arguments{
 \item{q}{Your data.frame}
 
-\item{...}{Your factor column(s)}
+\item{r}{The column you wish to convert from factors to characters (as a character, like "r")}
 }
 \value{
 data.frame
