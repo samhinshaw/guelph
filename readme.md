@@ -17,7 +17,9 @@ and loaded with `library(guelph)`
 If I had more time, I would combine the functions `countlevels()` and `factorchars()`.  This would allow me to easily check if a column has the same number of levels as rows, and coerce it to characters!
 
 #### 2. Problems in Development  
-I had a lot of trouble passing checks in the beginning!  It turns out that I had used `tbl_df()` in `test_freq_out.R`, and using `importFrom(dplyr, "tbl_df()")` wasn't enough, I needed to import the entire package (`import(dplyr)`), so I changed
+First off, I'm still not sure what the deal with the vignettes is.  I seem to have generated one, but it's just the template vignette with nothing useful.  Is this an `.Rmd` file that I should be editing manually that then gets rendered to HTML and PDF (via latex)?   
+
+Next, I had a lot of trouble passing checks in the beginning!  It turns out that I had used `tbl_df()` in `test_freq_out.R`, and using `importFrom(dplyr, "tbl_df()")` wasn't enough, I needed to import the entire package (`import(dplyr)`), so I changed
 ```
 #' @importFrom dplyr %>%
 #' @importFrom dplyr tbl_df()
