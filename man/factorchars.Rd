@@ -2,20 +2,20 @@
 % Please edit documentation in R/factorchars.R
 \name{factorchars}
 \alias{factorchars}
-\title{Take a column in a data.frame and coerce it from factors to characters.}
+\title{Coerce a factor to character}
 \usage{
 factorchars(q, r)
 }
 \arguments{
-\item{q}{Your data.frame}
+\item{q}{Your list}
 
 \item{r}{The column you wish to convert from factors to characters (as a character, like "r")}
 }
 \value{
-data.frame
+list
 }
 \description{
-Take a column in a data.frame and coerce it from factors to characters.
+Take a factor from a list and coerce it to a character
 }
 \examples{
 factorchars(iris, "Species")

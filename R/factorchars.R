@@ -1,9 +1,11 @@
-#' Take a column in a data.frame and coerce it from factors to characters.
+#' Coerce a factor to character
 #'
-#' @param q Your data.frame
+#' Take a factor from a list and coerce it to a character
+#'
+#' @param q Your list
 #' @param r The column you wish to convert from factors to characters (as a character, like "r")
 #'
-#' @return data.frame
+#' @return list
 #' @export
 #'
 #' @examples

@@ -7,13 +7,16 @@
 countlevels(d)
 }
 \arguments{
-\item{d}{Your dataframe}
+\item{d}{A data.frame}
 }
 \value{
 data.frame
 }
 \description{
-Find out if your columns should be factors or not
+Take a data.frame and check each column.  All columns that are factors
+will return the column name, and whether they should be considered a
+factor.  A factor should not be considered a factor when each
+level is unique.
 }
 \examples{
 countlevels(iris)

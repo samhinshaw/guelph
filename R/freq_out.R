@@ -1,5 +1,7 @@
 #' Make a frequency table for a factor
 #'
+#' Create a data.frame showing the frequency of levels in a given factor
+#'
 #' @param x A factor
 #'
 #' @return tbl_df

@@ -5,7 +5,9 @@
 \alias{guelph}
 \alias{guelph-package}
 \title{guelph.
-guelph: it's what's for dinner}
+guelph: it's what's for dinner
+This package is all about factor management!  Don't you hate factors?
+Maybe, but they're a necessary evil. Let's make them a bit easier to work with.}
 \description{
 Excerpt from Jenny:
 Factors have driven people to extreme measures, like ordering custom

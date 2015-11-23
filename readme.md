@@ -2,10 +2,10 @@
 
 This package has been created for the [STAT547](http://stat545-ubc.github.io/) class, and was made to manage factors in a less headache-inducing way. 
 Guelph contains the following functions:  
-`fbind()` 
-`freq_out()`  
-`countlevels()`  
-`factorchars()`  
+`fbind()` - combine two factors   
+`freq_out()` - create a frequency table for the occurences of levels in a factor   
+`countlevels()` - check which rows of factors in your data.frame should or shouldn't be factors   
+`factorchars()` - quickly convert a specified column from a factor to a character   
 *****
 ## Installation  
 Guelph can be installed with devtools `devtools::install_github("samhinshaw/guelph")`  

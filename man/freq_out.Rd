@@ -13,7 +13,7 @@ freq_out(x)
 tbl_df
 }
 \description{
-Make a frequency table for a factor
+Create a data.frame showing the frequency of levels in a given factor
 }
 \examples{
 freq_out(iris$Species)

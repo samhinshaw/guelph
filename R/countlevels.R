@@ -1,6 +1,11 @@
 #' Find out if your columns should be factors or not
 #'
-#' @param d Your dataframe
+#' Take a data.frame and check each column.  All columns that are factors
+#' will return the column name, and whether they should be considered a
+#' factor.  A factor should not be considered a factor when each
+#' level is unique.
+#'
+#' @param d A data.frame
 #'
 #' @return data.frame
 #' @export
