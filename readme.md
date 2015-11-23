@@ -1,19 +1,22 @@
-### Welcome to the guelph package!
+# Welcome to the guelph package!
 
 This package has been created for the [STAT547](http://stat545-ubc.github.io/) class, and was made to manage factors in a less headache-inducing way. 
 Guelph contains the following functions:  
-`fbind()`  
+`fbind()` 
 `freq_out()`  
 `countlevels()`  
 `factorchars()`  
 *****
-### Installation  
-Guelph can be installed with devtools  
-`devtools::install_github("samhinshaw/guelph")`  
-and loaded with   
-`library(guelph)`  
+## Installation  
+Guelph can be installed with devtools `devtools::install_github("samhinshaw/guelph")`  
+and loaded with `library(guelph)`  
 *****
-### Some Notes on Writing the Package  
+## Some Notes 
+
+#### 1. Further Goals   
+If I had more time, I would combine the functions `countlevels()` and `factorchars()`.  This would allow me to easily check if a column has the same number of levels as rows, and coerce it to characters!
+
+#### 2. Problems in Development  
 I had a lot of trouble passing checks in the beginning!  It turns out that I had used `tbl_df()` in `test_freq_out.R`, and using `importFrom(dplyr, "tbl_df()")` wasn't enough, I needed to import the entire package (`import(dplyr)`), so I changed
 ```
 #' @importFrom dplyr %>%

@@ -61,14 +61,22 @@ img {
 
 
 
-<div id="welcome-to-the-guelph-package" class="section level3">
-<h3>Welcome to the guelph package!</h3>
-<p>This package has been created for the <a href="http://stat545-ubc.github.io/">STAT547</a> class, and was made to manage factors in a less headache-inducing way. Guelph contains the following functions:<br /><code>fbind()</code><br /><code>freq_out()</code><br /><code>countlevels()</code><br /><code>factorchars()</code><br />***** ### Installation<br />Guelph can be installed with devtools<br /><code>devtools::install_github(&quot;samhinshaw/guelph&quot;)</code><br />and loaded with<br /><code>library(guelph)</code><br />***** ### Some Notes on Writing the Package<br />I had a lot of trouble passing checks in the beginning! It turns out that I had used <code>tbl_df()</code> in <code>test_freq_out.R</code>, and using <code>importFrom(dplyr, &quot;tbl_df()&quot;)</code> wasn’t enough, I needed to import the entire package (<code>import(dplyr)</code>), so I changed</p>
+<div id="welcome-to-the-guelph-package" class="section level1">
+<h1>Welcome to the guelph package!</h1>
+<p>This package has been created for the <a href="http://stat545-ubc.github.io/">STAT547</a> class, and was made to manage factors in a less headache-inducing way. Guelph contains the following functions:<br /><code>fbind()</code> <code>freq_out()</code><br /><code>countlevels()</code><br /><code>factorchars()</code><br />***** ## Installation<br />Guelph can be installed with devtools <code>devtools::install_github(&quot;samhinshaw/guelph&quot;)</code><br />and loaded with <code>library(guelph)</code><br />***** ## Some Notes</p>
+<div id="further-goals" class="section level4">
+<h4>1. Further Goals</h4>
+<p>If I had more time, I would combine the functions <code>countlevels()</code> and <code>factorchars()</code>. This would allow me to easily check if a column has the same number of levels as rows, and coerce it to characters!</p>
+</div>
+<div id="problems-in-development" class="section level4">
+<h4>2. Problems in Development</h4>
+<p>I had a lot of trouble passing checks in the beginning! It turns out that I had used <code>tbl_df()</code> in <code>test_freq_out.R</code>, and using <code>importFrom(dplyr, &quot;tbl_df()&quot;)</code> wasn’t enough, I needed to import the entire package (<code>import(dplyr)</code>), so I changed</p>
 <pre><code>#' @importFrom dplyr %&gt;%
 #' @importFrom dplyr tbl_df()</code></pre>
 <p>to</p>
 <pre><code>#' @import dplyr</code></pre>
 <p>In my guelph-package.R file, and re-ran <code>document()</code>. It worked!</p>
+</div>
 </div>
 
 

@@ -1,11 +1,10 @@
 Package: guelph
-Title: This package guelphs things you need guelphed
+Title: A factor management package
 Version: 0.0.0.9000
 Authors@R: person("Sam", "Hinshaw", email = "sam@hancocklab.com", role = c("aut", "cre"))
-Description: This is a paragraph
-    about what my package does.
-    This is not a poem
-    Though it may seem like a bad one.
+Description: This package guelphs things you need guelphed.
+    A package for when there's just not enough guelph in your life.
+    Guelph is all about factor management, and fixing things that need to be fixed!
 Depends:
     R (>= 3.2.2)
 License: CC0
