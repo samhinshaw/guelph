@@ -22,10 +22,10 @@ Guelph contains the following functions:
 `freq_out()`
 `countlevels()`
 `factorchars()`
-------
+*****
 ### Installation
 Install guelph with devtools `devtools::install_github("samhinshaw/guelph")` & loaded with `library(guelph)`
-------
+*****
 ### Some Notes on Writing the Package
 I had a lot of trouble passing checks in the beginning!  It turns out that I had used `tbl_df()` in `test_freq_out.R`, and using `importFrom(dplyr, "tbl_df()")` wasn't enough, I needed to import the entire package (`import(dplyr)`), so I changed
 ```
