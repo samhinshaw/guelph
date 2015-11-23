@@ -7,7 +7,7 @@
 #' stringsAsFactors. And yet, sometimes you need them. Can they be made less
 #' maddening? Let's find out.
 #'
-#' @import plyr
+#' @importFrom plyr ldply
 #' @import dplyr
 #' @name guelph
 #' @docType package
