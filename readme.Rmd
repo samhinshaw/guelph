@@ -1,19 +1,8 @@
 ---
 output:
-  md_document:
-    variant: markdown_github
+  html_document:
+    keep_md: TRUE
 ---
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, echo = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "README-"
-)
-```
-
 ### Welcome to the guelph package!
 
 This package has been created for the [STAT547](http://stat545-ubc.github.io/) class, and was made to manage factors in a less headache-inducing way. 
