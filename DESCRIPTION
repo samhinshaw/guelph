@@ -2,21 +2,21 @@ Package: guelph
 Title: A factor management package
 Version: 0.0.0.9000
 Authors@R: person("Sam", "Hinshaw", email = "sam@hancocklab.com", role = c("aut", "cre"))
-Description: This package guelphs things you need guelphed.
-    A package for when there's just not enough guelph in your life.
-    Guelph is all about factor management, and fixing things that need to be fixed!
+Description: This package guelphs things you need guelphed. A package for
+    when there's just not enough guelph in your life. Guelph is all about factor
+    management, and fixing things that need to be fixed!
 Depends:
     R (>= 3.2.2)
 License: CC0
 LazyData: true
 URL: https://github.com/samhinshaw/guelph
 BugReports: https://github.com/samhinshaw/guelph/issues
-RoxygenNote: 5.0.1.9000
+RoxygenNote: 5.0.1
 Suggests:
     testthat,
     knitr,
     rmarkdown
 Imports:
-	plyr,
+    plyr,
     dplyr
 VignetteBuilder: knitr
