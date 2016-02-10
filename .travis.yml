@@ -1,4 +1,6 @@
 language: R
-r_packages: dplyr
-repos:
-    CRAN: http://cran.stat.sfu.ca/
+sudo: false
+env:
+  global:
+  - NOT_CRAN: true
+cache: packages
