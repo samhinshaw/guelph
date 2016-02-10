@@ -3,7 +3,7 @@ output:
   html_document:
     keep_md: TRUE
 ---
-# Welcome to the guelph package!
+# Welcome to the guelph package! [![Build Status](https://travis-ci.org/samhinshaw/guelph.svg?branch=master)](https://travis-ci.org/samhinshaw/guelph)
 
 This package has been created for the [STAT547](http://stat545-ubc.github.io/) class, and was made to manage factors in a less headache-inducing way. 
 Guelph contains the following functions:  
