@@ -1,5 +1,4 @@
 language: R
-apt_packages: 
 r_packages: dplyr
 repos:
     CRAN: http://cran.stat.sfu.ca/
